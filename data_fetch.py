@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import os
 
-TICKERS = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'JNJ', 'TSLA', 'SPY']
+TICKERS = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA','NVDA','META','JPM','V','JNJ','WMT','PG','CVX','MA', 'SPY', 'QQQ']
 END_DATE = datetime.now()
 START_DATE = END_DATE - timedelta(days=365*10)
 
